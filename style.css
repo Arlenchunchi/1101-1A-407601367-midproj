@@ -1,0 +1,99 @@
+body {
+  background: #bebfc23b;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  margin: 0 auto;
+}
+
+nav {
+  height: 100px;
+  background: #35373a;
+  margin-top: -25px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  font-size: 30px;
+  padding-left: 30px;
+  color: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 6r0px;
+  margin-top: -100px;
+}
+
+nav ul li {
+  background: #35373a;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+nav ul li a i {
+  color: white;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+  padding-top: 100px;
+}
+
+nav ul ul li {
+  width: 190px;
+  float: none;
+  display: list-item;
+  position: relative;
+  opacity: 0.9;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -9000;
+}
+.background img {
+  margin-top: 100px;
+  height: 680px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.word {
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  margin: 20px;
+  margin-top: 220px;
+  width: 700px;
+  background-color: rgba(95, 90, 90, 0.5);
+}
